@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: oklab(65.271% -0.08127 0.12122);
+    font-size: 14px;
+}
+
+/* HEADER */
+.header {
+    background-color: #4a6fa5;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background-color: #4a6fa5;
+}
+
+.header-logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #4a6fa5;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid #3a5a8a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-quitter {
+    margin-left: auto;
+    color: #ffcccc !important;
+}
+
+/* CONTENU PRINCIPAL */
+.container {
+    padding: 25px 30px;
+}
+
+h2 {
+    color: hsl(234, 38%, 47%);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+p.count {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+/* TABLEAUX */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+table th {
+    background-color: #4a6fa5;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: normal;
+}
+
+table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+table tr:hover {
+    background-color: #eef2f7;
+}
+
+/* BOUTONS */
+.btn {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-right: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #3a5a8a;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+/* PAGE D'ACCUEIL CENTRALE */
+.welcome-box {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.welcome-box h2 {
+    color: #4a6fa5;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.welcome-box p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* PAGE INDEX */
+.index-box {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.index-box h1 {
+    color: #4a6fa5;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.index-box p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* FORMULAIRES */
+.form-box {
+    background: white;
+    padding: 30px;
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+.form-box h2 {
+    color: #4a6fa5;
+    margin-bottom: 5px;
+}
+
+.form-box h3 {
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4a6fa5;
+}
+
+.error {
+    color: #cc0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #007700;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link-small {
+    font-size: 13px;
+    color: #4a6fa5;
+    margin-top: 15px;
+    display: block;
+}
+
+.link-small a {
+    color: #4a6fa5;
+}
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ddd;
+    margin-top: auto;
+}
+
+.btn-logout {
+    display: inline-block;
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-logout:hover {
+    background-color: #a93226;
+    transform: translateY(-1px);
+}
+
+.btn-logout:active {
+    background-color: #922b21;
+    transform: translateY(0px);
+}
