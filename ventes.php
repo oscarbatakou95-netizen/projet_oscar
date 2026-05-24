@@ -20,67 +20,7 @@ $total = count($ventes);
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    @viewport {
-    width: device-width;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-size: 18px;
-}
-
-.container {
-    width: 95%;
-    padding: 10px;
-}
-
-.form-box {
-    width: 95%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-input[type="email"],
-input[type="text"],
-input[type="password"] {
-    width: 100%;
-    font-size: 18px;
-    padding: 12px;
-    margin-top: 5px;
-}
-
-.btn, input[type="submit"], input[type="reset"] {
-    font-size: 18px;
-    padding: 12px 24px;
-    width: 100%;
-    margin: 8px 0;
-}
-
-label {
-    font-size: 18px;
-}
-
-nav a {
-    font-size: 17px;
-    padding: 10px 12px;
-    display: inline-block;
-}
-
-.header-logo img {
-    width: 60px;
-    height: 60px;
-}
-
-.header-title {
-    font-size: 18px;
-}
-
-h2, h3 {
-    font-size: 22px;
-}
+    
     <title>Ventes - Ma Plateforme</title>
     <link rel="stylesheet" href="style.css">
 </head>
