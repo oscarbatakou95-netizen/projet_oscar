@@ -14,9 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $prenom = trim($_POST['prenom'] ?? '');
     $age = trim($_POST['age'] ?? '');
     $adresse = trim($_POST['adresse'] ?? '');
-    $ville = trim($_POST['ville'] ?? '');
-    $mail = trim($_POST['mail'] ?? '');
-    $telephone = trim($_POST['telephone'] ?? '');
 
     if (empty($nom) || empty($prenom)) {
         $erreur = "Le nom et le prénom sont obligatoires !";
